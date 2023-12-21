@@ -13,8 +13,8 @@
         else if(localStorage.getItem("meek_theme")=="light"){document.getElementsByTagName("html")[0].attributes.getNamedItem("data-color-mode").value="light";}
     </script>
     
-<title>Hello World</title>
-
+<title>使用OrbStack替代Docker Desktop</title>
+<link href="//unpkg.com/@wooorm/starry-night@2.1.1/style/both.css" rel="stylesheet" />
 
 </head>
 <style>
@@ -44,7 +44,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 
 <body>
     <div id="header">
-<span class="postTitle">Hello World</span>
+<span class="postTitle">使用OrbStack替代Docker Desktop</span>
 <div class="title-right">
 
     <a href="http://titor-z.github.io"><button id="buttonHome" class="btn btn-invisible circle" title="首页">
@@ -53,7 +53,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
         </svg>
     </button></a>
 
-    <a href="https://github.com/Titor-Z/titor-z.github.io/issues/3" target="_blank"><button class="btn btn-invisible circle" title="Issue">
+    <a href="https://github.com/Titor-Z/titor-z.github.io/issues/4" target="_blank"><button class="btn btn-invisible circle" title="Issue">
         <svg class="octicon" width="16" height="16">
             <path id="pathIssue" fill-rule="evenodd" d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"></path>
         </svg>
@@ -69,8 +69,98 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
     <div id="content">
 <div class="markdown-body" id="postBody">
-<p>按照旧例，先来一句 <code class="notranslate">console.log('hello world!')</code></p>
-<p>你看到我，恰如我看到你一样。</p>
+<p>👉  在阅读此篇文章前，我假定你已经了解并使用过Docker，否则你应先对Docker相关知识有所了解。</p>
+<h2>OrbStack是什么？</h2>
+<p><a href="https://orbstack.dev" rel="nofollow">OrbStack · Fast, light, simple Docker &amp; Linux on macOS</a></p>
+
+💡 OrbStack是一个强大的Docker Desktop替代品。它提供了一种在本地环境中进行容器化开发的方式，无需担心Docker Desktop可能会带来的性能问题或高昂的许可费用。
+<p>OrbStack具有一些引人注目的特性，包括支持Windows, MacOS和Linux，强大的性能和稳定性，以及与主流容器编排工具的无缝集成。它的用户界面也非常直观，使得开发者可以轻松地管理和监控他们的容器。</p>
+<p>通过使用OrbStack，开发者可以更加高效地进行容器化开发，同时还可以节省一些可能用于购买Docker Desktop许可的成本。这使得OrbStack成为了Docker Desktop的理想替代品。</p>
+
+<h2>使用Docker UI界面的原因</h2>
+<p>日常在Linux上使用Docker，并没有什么性能问题，大家都是在CLI中使用指令，主要就是用来搭建容器环境，部署项目而已。而平时在本地开发项目时，需要的操作就会繁琐和复杂的多。比如：</p>
+<ul>
+<li>为项目编写Dockerfile和docker-compose，测试实例能否正常启动。</li>
+<li>删除、启动、停止多个Container和Image。</li>
+<li>查看Container的配置信息，历史日志。</li>
+<li>快速进入或启动一个Container实例，并进入实例的shell。</li>
+</ul>
+<p>以上这些情况，通过CLI也可操作，但每次都需要敲击很多遍，才能完成。相反，通过Docker Desktop提供的UI界面，鼠标点击下就能完成很多批量操作，这无异于能够节省很多时间。</p>
+<h3><strong>Docker Desktop 存在的意义</strong></h3>
+<h1>提供了一套方便的UI界面。</h1>
+<ul>
+<li>能够方便查看，编辑、删除Image和Container。</li>
+<li>它最有意思的点，应该就是能够在WSL中搭建Dev Container，通过VSCode提供的Remote-wsl直接进入容器。</li>
+<li>还可以直接在UI界面中查看已启动容器的日志，直接进入容器实例内的CLI。</li>
+<li>还可以查看CPU、RAM、Disk的每个Container和Image占用情况。</li>
+<li>以及方便的对Docker进行设置。</li>
+</ul>
+<p>但它的弊端，就是每次在本地使用Docker，都需要先启用Docker Desktop，如果有最新版本，还会要求更新，有时还会有评分反馈。但这些都还不算什么，它最大的问题，就是对宿主机的资源占用太大，启动Docker的速度太慢，尤其是在一些时间比较久的机器上，这种对资源的开销是不能忍受的。</p>
+<p>而我日常是在一台比较久的Mac上做一些Demo，尽管已将vscode配置的很精简了，但同时打开浏览器，并启动Docker Desktop后，电脑性能还是会明显下降。因此需要一款性能更好的UI操作界面。</p>
+<p>我曾尝试过使用Dockeg来操作，但它目前的UI界面还存在BUG，对于在服务器端做维护来说是一个很不错的选择，但对于本地环境来说，还是一款App界面操作来的更方便。直到后来刷视频看到别人分享了OrbStack，尝试下载使用了一下。而相较于Podman和Docker Desktop，确实更简单直接。</p>
+<h3>OrbStack 使用情况</h3>
+<ul>
+<li>启动速度很快，从启动到运行都在2～5s以内。</li>
+<li>界面干净简单，没有多余内容。操作习惯直接、方便。</li>
+<li>基本的Container、Volume、Image、查看Container的状态、信息、Log、一键Container shell、这些功能都有。</li>
+<li>还提供了容器编排的Pod、Service界面。</li>
+<li>额外提供了一项Linux子容器界面。</li>
+<li>UI界面占用内存很小，目前看只有64MB，但Virtual Machine Service进程内存占用在340MB。</li>
+</ul>
+<p>就目前UI操作界面的占用来说，它的内存占用已经很低，界面的使用比Docker Desktop精简，反应速度更快，初次使用，没有出现卡顿情况，具体情况，需要后期用户自己使用。但对于日常频繁使用的功能，都给予了提供，因此可以完全替代Docker Desktop在本地使用。</p>
+<h2>上干货，直接介绍如何安装</h2>
+<p>先问大家一个问题，有没有想过直接删掉Docker Desktop（它的内部包含了Docker Client、Engine和其他的一众捆绑）提供的环境，反而像Linux上一样直接从shell中访问，给Mac或Win提供一个纯粹的Docker环境。（答案，是有的，大家可自行搜索<strong>Lima</strong> &amp; <strong>Colima</strong>），这里，我将演示使用OrbStack提供一个轻量的Docker for Mac 环境。</p>
+<h2>卸载Mac的Docker环境</h2>
+<ul>
+<li>删除Docker Desktop for Mac应用</li>
+<li>或执行以下命令</li>
+</ul>
+<div class="highlight highlight-source-shell"><pre class="notranslate"> /Applications/Docker.app/Contents/MacOS/uninstall</pre></div>
+<p>当删除环境之后，系统还会存在残存的文件信息，可通过以下指令清除：</p>
+<div class="highlight highlight-source-shell"><pre class="notranslate">rm -rf <span class="pl-k">~</span>/Library/Group<span class="pl-cce">\ </span>Containers/group.com.docker
+rm -rf <span class="pl-k">~</span>/Library/Containers/com.docker.docker
+rm -rf <span class="pl-k">~</span>/.docker</pre></div>
+<p>详情可参考官方文档：</p>
+<p><a href="https://docs.docker.com/desktop/uninstall/#uninstall-docker-desktop" rel="nofollow">Uninstall Docker Desktop</a></p>
+<h2>安装OrbStack &amp; Docker for Mac 环境</h2>
+<ol>
+<li>首先，需要使用 HomeBrew 安装 Docker CLI，为本地提供Docker Client服务</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre class="notranslate">brew install docker</pre></div>
+<ol>
+<li>下载 OrbStack
+<ul>
+<li>
+<p>官网下载：<a href="https://orbstack.dev/download" rel="nofollow">https://orbstack.dev/download</a></p>
+</li>
+<li>
+<p>HomeBrew 安装</p>
+<div class="highlight highlight-source-shell"><pre class="notranslate">brew install orbstack</pre></div>
+</li>
+</ul>
+</li>
+</ol>
+<p>以上便完成了安装，接下来启动 OrbStack后，便可以通过Terminal正常使用Docker指令。以上操作安装的Docker环境，每次使用Docker时，只需要启动OrbStack，不存在其他占用内存的消耗。</p>
+<p>具体的Settings，比如 Docker源设定，和虚拟机资源占用，通过OrbStack的Settings配置即可。</p>
+<h2>卸载OrbStack环境</h2>
+<ol>
+<li>
+<p>删除OrbStack应用：打开Application目录，删除OrbStack.app</p>
+</li>
+<li>
+<p>如果是通过HomeBrew安装，则执行</p>
+<div class="highlight highlight-source-shell"><pre class="notranslate">brew uninstall orbstack</pre></div>
+</li>
+<li>
+<p>卸载Docker Cli</p>
+<div class="highlight highlight-source-shell"><pre class="notranslate">brew uninstall docker</pre></div>
+</li>
+</ol>
+<p>以上便是关于在Mac下配置Docker Desktop for Mac的轻量化替换产品OrbStack的说明。</p>
+<br>
+
+🫥 转载请注明并粘贴本篇文章的URL。
+
 </div>
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
