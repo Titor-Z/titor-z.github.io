@@ -1,5 +1,5 @@
 title = "胖叔呀"
-#baseURL = 'https://titor-z.github.io/'
+baseURL = 'https://titor-z.github.io/'
 
 # This is what goes in <html lang="">
 languageCode = 'zh-CN'
