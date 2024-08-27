@@ -68,9 +68,9 @@ theme = "hugo-blog-awesome"
     url = '/posts/'
     weight = 20
   [[Languages.zh-CN.menu.main]]
-    pageRef="about"
+    # pageRef="about"
     name = '关于'
-    url = '/about/'
+    url = '/about/about/'
     weight = 30
 
 [Languages.zh-CN.params]
@@ -101,7 +101,7 @@ theme = "hugo-blog-awesome"
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "胖叔"
   name = "Titor-Z"
-  description = "A fast, minimalistic Hugo theme with light and dark mode support, for running a personal site or blog."
+  description = "所有的事情，都有她的过程和技巧。"
 
 # Allow to override webmanifest options
 [Languages.zh-CN.params.webmanifest]
