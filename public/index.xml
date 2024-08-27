@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>胖叔呀</title>
-    <link>http://localhost:61412/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on 胖叔呀</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Cn</language>
-    <lastBuildDate>Wed, 28 Aug 2024 02:20:38 +0800</lastBuildDate><atom:link href="http://localhost:61412/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Aug 2024 02:20:38 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我是谁</title>
-      <link>http://localhost:61412/about/about/</link>
+      <link>http://localhost:1313/about/about/</link>
       <pubDate>Wed, 28 Aug 2024 02:20:38 +0800</pubDate>
       
-      <guid>http://localhost:61412/about/about/</guid>
+      <guid>http://localhost:1313/about/about/</guid>
       
       <description>欢迎来到我的数字世界！ 我是一名对编程充满热爱的自由程序员，在代码的海洋中不断探索和成长。
 在 GitHub 上，你可以发现我的一些个人小项目，每一个都是我用心打造的创意结晶。同时，我也发布了几个 npm 包，希望能为编程社区贡献自己的一份力量。
@@ -24,10 +24,10 @@
     
     <item>
       <title>AI 新手的第一次把玩</title>
-      <link>http://localhost:61412/posts/ai/ai-get-started/</link>
+      <link>http://localhost:1313/posts/ai/ai-get-started/</link>
       <pubDate>Tue, 27 Aug 2024 23:10:53 +0800</pubDate>
       
-      <guid>http://localhost:61412/posts/ai/ai-get-started/</guid>
+      <guid>http://localhost:1313/posts/ai/ai-get-started/</guid>
       
       <description>网上关于ai新闻的报道一大推，都是开源的大模型，比如chatgpt、gpt-3.5、gpt-4。国内出名的比如 文心一言、讯飞星火、豆包等等。 处于国情原因，国外的大部分网站，在国内是无法正常使用的。所以我开始尝试国内的AI模型，首先使用的是Baidu的文心一言。
 谈谈使用感受： 比如：我在写一些文档的时候，需要将英文翻译为中文，但是通过有道和文心一言的对比，文心一言翻译的结果更准确一些，语义更贴合原文的语义。尤其是对比一些专业的术语，文心一言翻译的结果更好。 还有在找一些资料的时候，直接询问文心一言，可以快速找到想要说明，同时它还会给出一些相关的资料，非常适合进行相关的学习补充。但它目前主要是对百度自己收录的网站和内容进行筛选，所以对于一些非百度收录的网站，它就无能为力了，不过这也是可以理解的，毕竟它只是一个AI模型，它没有能力去判断一个网站是否是百度收录的，同时，作为百度的产品，使用百度收录的数据，是很正常也很符合国内用户情况的。在现阶段，对于各大社区提供的资料来说，它还是可以满足大部分用户的需求的。 再有，平时想组建一个小的产品时，可以将自己的思路告诉AI，它会给出一些相关的建议和修改，并继续做补充，同时，你还可以继续向它咨询，它会接着上一个问题继续回答你，这很适合一些产品经理和程序员，可以节省很多的时间，也会让自己了解到一些自己以前从没有接触过的知识内容。 以上只是我目前这段使用的一些使用感受，相较于传统手机厂商开发的语音助手，大模型AI人工智能确实要优秀的多，能过获得流利的对答体验。当然，它也有失手的时候，毕竟，它也知识一个模型而已，所以需要我们在使用时，要将自己的需求尽可能的描述的清晰明了，这样它的回答也会更准确一些。
@@ -45,10 +45,10 @@
     
     <item>
       <title>开始使用</title>
-      <link>http://localhost:61412/posts/go-get-started/</link>
+      <link>http://localhost:1313/posts/go-get-started/</link>
       <pubDate>Tue, 27 Aug 2024 21:19:25 +0800</pubDate>
       
-      <guid>http://localhost:61412/posts/go-get-started/</guid>
+      <guid>http://localhost:1313/posts/go-get-started/</guid>
       
       <description>第一次接触 Hugo，尝试使用Hugo来重塑我的个人博客。</description>
       
@@ -56,10 +56,10 @@
     
     <item>
       <title>Orbstack Share</title>
-      <link>http://localhost:61412/posts/orbstack/orbstack-share/</link>
+      <link>http://localhost:1313/posts/orbstack/orbstack-share/</link>
       <pubDate>Thu, 21 Dec 2023 02:10:18 +0800</pubDate>
       
-      <guid>http://localhost:61412/posts/orbstack/orbstack-share/</guid>
+      <guid>http://localhost:1313/posts/orbstack/orbstack-share/</guid>
       
       <description>👉 在阅读此篇文章前，我假定你已经了解并使用过Docker，否则你应先对Docker相关知识有所了解。
 OrbStack是什么？ 💡 OrbStack · Fast, light, simple Docker &amp;amp; Linux on macOS
