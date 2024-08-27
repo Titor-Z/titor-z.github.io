@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>//localhost:61236/about/</loc>
+    <lastmod>2024-08-28T02:20:38+08:00</lastmod>
+  </url><url>
+    <loc>//localhost:61236/</loc>
+    <lastmod>2024-08-28T02:20:38+08:00</lastmod>
+  </url><url>
+    <loc>//localhost:61236/about/about/</loc>
+    <lastmod>2024-08-28T02:20:38+08:00</lastmod>
+  </url><url>
+    <loc>//localhost:61236/posts/ai/ai-get-started/</loc>
+    <lastmod>2024-08-27T23:10:53+08:00</lastmod>
+  </url><url>
+    <loc>//localhost:61236/posts/</loc>
+    <lastmod>2024-08-27T23:10:53+08:00</lastmod>
+  </url><url>
+    <loc>//localhost:61236/posts/go-get-started/</loc>
+    <lastmod>2024-08-27T21:19:25+08:00</lastmod>
+  </url><url>
+    <loc>//localhost:61236/posts/orbstack/orbstack-share/</loc>
+    <lastmod>2023-12-21T02:10:18+08:00</lastmod>
+  </url><url>
+    <loc>//localhost:61236/categories/</loc>
+  </url><url>
+    <loc>//localhost:61236/tags/</loc>
+  </url>
+</urlset>
