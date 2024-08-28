@@ -1,7 +1,7 @@
 ---
 title: 我是谁
 date: 2024-08-28T02:20:38+08:00
-draft: true
+draft: false
 toc: false
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: AI 新手的第一次把玩
 date: 2024-08-27T23:10:53+08:00
-draft: true
+draft: false
 # toc: false
 ---
 

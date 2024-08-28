@@ -50,7 +50,7 @@ theme = "hugo-blog-awesome"
 ############################## English language ################################
 [Languages.zh-CN]
   languageName = "Chinese"
-  languageCode = "zh-Cn"
+  languageCode = "zh-CN"
   contentDir = "content/"
   weight = 1
 
