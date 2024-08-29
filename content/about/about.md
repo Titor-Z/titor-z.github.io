@@ -1,9 +1,11 @@
 ---
-title: 我是谁
+title: 我是谁？
 date: 2024-08-28T02:20:38+08:00
 draft: false
 toc: false
 ---
+
+<img src="/1.png" alt="picture" style="width: 400px; margin: 1rem auto;">
 
 # 欢迎来到我的数字世界！
 
