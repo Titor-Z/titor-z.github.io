@@ -5,7 +5,7 @@ draft: false
 toc: false
 ---
 
-<img src="/1.png" alt="picture" style="width: 400px; margin: 1rem auto;">
+<img src="/about/1.png" alt="picture" style="width: 400px; margin: 1rem auto;">
 
 # 欢迎来到我的数字世界！
 
